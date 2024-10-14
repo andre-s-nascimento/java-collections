@@ -24,20 +24,21 @@ public class Teste3 {
         System.out.println();
         scan.close();
 
-        class Lista<T> implements Iterable<T> {
-            private ArrayList<T> list;
+    }
 
-            public Lista() {
-                list = new ArrayList<T>();
-            }
+    static class Lista<T> implements Iterable<T> {
+        private ArrayList<T> list;
 
-            public void inserir(T valor) {
-                list.add(valor);
-            }
+        public Lista() {
+            list = new ArrayList<T>();
+        }
 
-            public Iterator<T> iterator() {
-                return list.iterator();
-            }
+        public void inserir(T valor) {
+            list.add(valor);
+        }
+
+        public Iterator<T> iterator() {
+            return list.iterator();
         }
     }
 }

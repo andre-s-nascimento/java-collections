@@ -1,6 +1,6 @@
 package dev.andrenascimento.java.collections.models;
 
-public class Pessoa {
+public class Pessoa implements Comparable<Pessoa> {
 
     private int id;
     private String nome;
@@ -57,6 +57,20 @@ public class Pessoa {
         } else if (!nome.equals(other.nome))
             return false;
         return true;
+    }
+
+    @Override
+    public int compareTo(Pessoa o) {
+        // 0 são considerados "iguais"
+        if (this.getId() == o.getId()) {
+            return 0;
+        }
+        // < 0 a instancia é considerada menor que o argumento;
+        if (this.getId() < o.getId()) {
+            return -1;
+        }
+        // > 0 a instancia é considerada maior que o argumento;
+        return 1;
     }
 
 }

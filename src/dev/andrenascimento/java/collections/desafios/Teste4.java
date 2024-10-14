@@ -19,6 +19,8 @@ public class Teste4 {
         for(int valor : lista){
             System.out.print(valor + " ");
         }
+
+        scan.close();
     }
 }
 
