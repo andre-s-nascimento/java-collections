@@ -59,7 +59,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="33" value="«interface»&lt;br&gt;&lt;b&gt;Deque&lt;/b&gt;" style="html=1;" parent="1" vertex="1">
-                    <mxGeometry x="359" y="130" width="110" height="50" as="geometry"/>
+                    <mxGeometry x="330" y="140" width="110" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="25" target="18" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -146,6 +146,33 @@
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="490" y="250" as="sourcePoint"/>
                         <mxPoint x="615" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="«interface»&lt;br&gt;&lt;b&gt;Queue&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="120" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="53" target="2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="870" y="340" as="sourcePoint"/>
+                        <mxPoint x="670" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;AbstractQueue&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="230" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;PriorityQueue&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="370" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="56" target="55">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="870" y="340" as="sourcePoint"/>
+                        <mxPoint x="670" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="55" target="53">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="785" y="220" as="sourcePoint"/>
+                        <mxPoint x="670" y="185" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
