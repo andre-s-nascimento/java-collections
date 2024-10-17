@@ -2,10 +2,8 @@ package dev.andrenascimento.java.collections.desafios;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.util.Queue;
 import java.util.PriorityQueue;
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class Aula06_Teste02 {
     

@@ -1,10 +1,10 @@
 package dev.andrenascimento.java.collections.desafios;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Aula05_Teste02 {
 

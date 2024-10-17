@@ -1,7 +1,8 @@
 package dev.andrenascimento.java.collections.desafios;
 
-import java.util.*;
-import java.lang.reflect.*;
+import java.util.ArrayDeque;
+import java.util.Queue;
+import java.util.Scanner;
 
 public class Aula06_Teste01 {
     public static void main(String[] argh) {
