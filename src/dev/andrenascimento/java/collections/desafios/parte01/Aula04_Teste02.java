@@ -1,4 +1,4 @@
-package dev.andrenascimento.java.collections.desafios;
+package dev.andrenascimento.java.collections.desafios.parte01;
 
 import java.util.*;
 
