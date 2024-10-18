@@ -2,5 +2,14 @@
   "java.project.sourcePaths": ["src"],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"],
-  "cSpell.words": ["argh", "colecao", "comparacao", "hashcode", "linkedhashmap"]
+  "cSpell.words": [
+    "argh",
+    "colecao",
+    "comparacao",
+    "Excecao",
+    "funcao",
+    "hashcode",
+    "linkedhashmap",
+    "preco"
+  ]
 }
