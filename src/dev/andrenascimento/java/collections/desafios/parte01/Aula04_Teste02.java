@@ -43,7 +43,7 @@ public class Aula04_Teste02 {
     }
 }
 
-class Jogador {
+final class Jogador {
     String nome;
     int placar;
 
